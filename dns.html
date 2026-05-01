@@ -30,9 +30,19 @@
         <a href="web-4-0.html">Web 4.0</a>
     </nav>
     <main>
-        <h2>Domain Name Server (DNS)</h2>
-        <p>The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.</p>
-        <p>Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers eliminate the need for humans to memorize IP addresses such as 192.168.1.1 (in IPv4), or more complex newer alphanumeric IP addresses such as 2400:cb00:2048:1::c629:d7a2 (in IPv6).</p>
+        <h2>Domain Name System (DNS)</h2>
+        <p>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, and other resources connected to the Internet or a private network. It serves as the "phonebook" of the Internet by translating human-readable domain names (like <em>example.com</em>) into numerical IP addresses (like <em>192.0.2.1</em>) that computers use to identify each other.</p>
+        
+        <p>When you enter a URL in your browser, a DNS query is initiated. This process typically involves several types of servers:</p>
+        <ul>
+            <li><strong>DNS Resolver:</strong> The first stop, usually managed by your ISP, which searches its cache or queries other servers.</li>
+            <li><strong>Root Nameservers:</strong> Direct the resolver to the appropriate Top-Level Domain (TLD) server (e.g., for .com or .org).</li>
+            <li><strong>TLD Nameservers:</strong> Point to the Authoritative Nameserver for the specific domain.</li>
+            <li><strong>Authoritative Nameservers:</strong> Provide the final IP address for the requested domain name.</li>
+        </ul>
+
+        <p>DNS is critical for the Internet's usability, as it allows users to navigate the web using easy-to-remember names rather than complex strings of numbers. It also supports various record types beyond IP addresses, such as MX records for mail routing and CNAME records for aliasing.</p>
+
         <img src="images/domain-name-server.svg" alt="DNS Resolution Illustration" class="term-image">
     </main>
     <footer>
