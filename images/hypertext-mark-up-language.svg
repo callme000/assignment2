@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img">
-<title>Web 1.0 concept diagram</title>
+<title>Hypertext Mark-up Language concept diagram</title>
 <defs>
   <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
     <path d="M0,0 L0,6 L9,3 z" fill="#b73f51"/>
@@ -8,28 +8,28 @@
 <rect width="900" height="520" fill="#f6f8f5"/>
 <rect x="32" y="32" width="836" height="456" rx="12" fill="#ffffff" stroke="#d8dfd5"/>
 <rect x="32" y="32" width="836" height="84" rx="12" fill="#b73f51" opacity="0.12"/>
-<text x="64" y="78" font-size="34" font-weight="800" fill="#17212b"><tspan x="64" dy="0">Web 1.0</tspan></text>
-<text x="64" y="144" font-size="20" font-weight="500" fill="#42515c"><tspan x="64" dy="0">Web 1.0 describes the early read-focused Web, where most users consumed</tspan><tspan x="64" dy="27">static pages rather than creating interactive content.</tspan></text>
+<text x="64" y="78" font-size="34" font-weight="800" fill="#17212b"><tspan x="64" dy="0">Hypertext Mark-up</tspan><tspan x="64" dy="45">Language</tspan></text>
+<text x="64" y="144" font-size="20" font-weight="500" fill="#42515c"><tspan x="64" dy="0">HTML is the markup language used to structure web pages and describe their</tspan><tspan x="64" dy="27">content.</tspan></text>
 <line x1="280" y1="308" x2="360" y2="308" stroke="#b73f51" stroke-width="4" marker-end="url(#arrow)"/>
 <line x1="540" y1="308" x2="620" y2="308" stroke="#b73f51" stroke-width="4" marker-end="url(#arrow)"/>
 
 <rect x="64" y="250" width="220" height="116" rx="8" fill="#ffffff" stroke="#b73f51" stroke-width="3"/>
 <circle cx="98" cy="288" r="17" fill="#b73f51" opacity="0.16"/>
 <circle cx="98" cy="288" r="8" fill="#b73f51"/>
-<text x="88" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="88" dy="0">Static page</tspan></text>
+<text x="88" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="88" dy="0">HTML document</tspan></text>
 
 
 <rect x="340" y="250" width="220" height="116" rx="8" fill="#ffffff" stroke="#b73f51" stroke-width="3"/>
 <circle cx="374" cy="288" r="17" fill="#b73f51" opacity="0.16"/>
 <circle cx="374" cy="288" r="8" fill="#b73f51"/>
-<text x="364" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="364" dy="0">Publisher</tspan><tspan x="364" dy="29">updates</tspan></text>
+<text x="364" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="364" dy="0">Browser parser</tspan></text>
 
 
 <rect x="616" y="250" width="220" height="116" rx="8" fill="#ffffff" stroke="#b73f51" stroke-width="3"/>
 <circle cx="650" cy="288" r="17" fill="#b73f51" opacity="0.16"/>
 <circle cx="650" cy="288" r="8" fill="#b73f51"/>
-<text x="640" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="640" dy="0">Reader views</tspan></text>
+<text x="640" y="334" font-size="22" font-weight="700" fill="#1b2733"><tspan x="640" dy="0">Structured web</tspan><tspan x="640" dy="29">page</tspan></text>
 
 <rect x="64" y="406" width="772" height="42" rx="8" fill="#eef3ed"/>
-<text x="86" y="434" font-size="20" font-weight="700" fill="#22303a"><tspan x="86" dy="0">Key idea: Mostly static pages.</tspan></text>
+<text x="86" y="434" font-size="20" font-weight="700" fill="#22303a"><tspan x="86" dy="0">Key idea: Structures content with elements and attributes.</tspan></text>
 </svg>
